@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation>
+    <text name="overskrift" plural="flertal" value="ental"/>
+    <columns>
+        <column format="heading">
+            <label>'overskrift1'</label>
+            <value>'overskrift2'</value>
+        </column>
+        <column>
+            <label>'udd_distrikt_navn'</label>
+            <value>udd_distrikt_navn</value>
+            <condition/>
+        </column>
+        <column>
+            <label>'udd_distrikt_nr'</label>
+            <value>udd_distrikt_nr</value>
+            <condition/>
+        </column>
+        <column>
+            <label>'starttrin'</label>
+            <value>starttrin</value>
+            <condition/>
+        </column>
+        <column>
+            <label>'slutttrin'</label>
+            <value>slutttrin</value>
+            <condition/>
+        </column>
+        <column>
+            <label>'status'</label>
+            <value>status</value>
+            <condition/>
+        </column>
+        <column>
+            <label>'udd_distrikt_type'</label>
+            <value>udd_distrikt_type</value>
+            <condition/>
+        </column>
+        <column>
+            <label>'udd_distrikt_type_kode'</label>
+            <value>udd_distrikt_type_kode</value>
+            <condition/>
+        </column>
+    </columns>
+</presentation>

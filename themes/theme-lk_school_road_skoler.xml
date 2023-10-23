@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <clientlayers>
+        <clientlayer name="clientlayer">
+            <singletile>true</singletile>
+        </clientlayer>
+    </clientlayers>
+    <layer datasource="lk_school_road_skoler" name="lk_school_road_skoler" type="point">[datasource:lk_school_road_skoler.mapfile-datasource]
+        <class>
+            <name>Skoler</name>
+            <style>
+                <color>0 0 0</color>
+                <size>7</size>
+                <symbol>circle</symbol>
+            </style>
+        </class>
+    </layer>
+</theme>

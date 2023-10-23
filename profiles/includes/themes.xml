@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<theme module="school_road" name="theme-lk_school_road_skoledistrikter">
+		<themeselector>
+			<initialstate>available</initialstate>
+			<group>skoler</group>
+			<selectable>true</selectable>
+			<displayname>Skoledistrikter</displayname>
+		</themeselector>
+	</theme>
+</themes>

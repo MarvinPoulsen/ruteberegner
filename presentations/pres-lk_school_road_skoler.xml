@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation>
+    <text name="overskrift" plural="flertal" value="ental"/>
+    <columns>
+        <column format="heading">
+            <label>'overskrift1'</label>
+            <value>'overskrift2'</value>
+        </column>
+        <column>
+            <label>'afdelingsleder_skoleleder'</label>
+            <value>afdelingsleder_skoleleder</value>
+        </column>
+        <column>
+            <label>'by'</label>
+            <value>by</value>
+        </column>
+        <column>
+            <label>'email'</label>
+            <value>email</value>
+        </column>
+        <column>
+            <label>'hjemmeside'</label>
+            <value>hjemmeside</value>
+        </column>
+        <column>
+            <label>'husnummer'</label>
+            <value>husnummer</value>
+        </column>
+        <column>
+            <label>'id'</label>
+            <value>id</value>
+        </column>
+        <column>
+            <label>'klassetrin'</label>
+            <value>klassetrin</value>
+        </column>
+        <column>
+            <label>'postnummer'</label>
+            <value>postnummer</value>
+        </column>
+        <column>
+            <label>'skole'</label>
+            <value>skole</value>
+        </column>
+        <column>
+            <label>'vejnavn'</label>
+            <value>vejnavn</value>
+        </column>
+    </columns>
+</presentation>

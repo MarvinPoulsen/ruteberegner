@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<targetset maxresult="500" name="school_road">
+    <target name="lk_school_road_skoledistrikter" presentation="[module:school_road.dir]/presentations/pres-lk_school_road_skoledistrikter" themecondition="theme-lk_school_road_skoledistrikter">
+        <datasource name="lk_school_road_skoledistrikter"/>
+    </target>
+    <target name="lk_school_road_skoler" presentation="[module:school_road.dir]/presentations/pres-lk_school_road_skoler" themecondition="theme-lk_school_road_skoler">
+        <datasource name="lk_school_road_skoler"/>
+    </target>
+</targetset>

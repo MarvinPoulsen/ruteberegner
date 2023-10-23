@@ -1,0 +1,30 @@
+{
+  "name": "school_road_simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir ../dist/ --public-url ./",
+    "watch": "parcel watch ./src/index.html --dist-dir ../dist/ --public-url ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.0",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "install": "^0.13.0",
+    "npm": "^10.2.0",
+    "parcel": "^2.10.0",
+    "process": "^0.11.10",
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "react-dom": "^18.2.0"
+  }
+}

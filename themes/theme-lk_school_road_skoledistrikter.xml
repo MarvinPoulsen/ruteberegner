@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <clientlayers>
+        <clientlayer name="clientlayer">
+            <singletile>true</singletile>
+        </clientlayer>
+    </clientlayers>
+    <cbinfo-metadata/>
+    <layer datasource="lk_school_road_skoledistrikter" name="lk_school_road_skoledistrikter" type="polygon">[datasource:lk_school_road_skoledistrikter.mapfile-datasource]
+        <class>
+            <name>Maribo Skole</name>
+            <expression>/^12$/</expression>
+            <style>
+                <color>124 71 175</color>
+                <size>6</size>
+                <opacity>25</opacity>
+            </style>
+        </class>
+        <class>
+            <name>Rødby Skole</name>
+            <expression>/^14$/</expression>
+            <style>
+                <color>196 229 153</color>
+                <size>6</size>
+                <opacity>25</opacity>
+            </style>
+        </class>
+        <class>
+            <name>Søllested landsbyordning</name>
+            <expression>/^2$/</expression>
+            <style>
+                <color>144 41 41</color>
+                <size>6</size>
+                <opacity>25</opacity>
+            </style>
+        </class>
+        <class>
+            <name>Holeby Landsbyordning</name>
+            <expression>/^3$/</expression>
+            <style>
+                <color>126 137 141</color>
+                <size>6</size>
+                <opacity>25</opacity>
+            </style>
+        </class>
+        <class>
+            <name>Horslunde landsbyordning</name>
+            <expression>/^4$/</expression>
+            <style>
+                <color>53 107 158</color>
+                <size>6</size>
+                <opacity>25</opacity>
+            </style>
+        </class>
+        <class>
+            <name>Stormarkskolen</name>
+            <expression>/^5$/</expression>
+            <style>
+                <color>215 89 204</color>
+                <size>6</size>
+                <opacity>25</opacity>
+            </style>
+        </class>
+        <class>
+            <name>Byskolen</name>
+            <expression>/^6$/</expression>
+            <style>
+                <color>17 121 86</color>
+                <size>6</size>
+                <opacity>25</opacity>
+            </style>
+        </class>
+        <class>
+            <name>Østofte landsbyordning</name>
+            <expression>/^8$/</expression>
+            <style>
+                <color>58 184 43</color>
+                <size>6</size>
+                <opacity>25</opacity>
+            </style>
+        </class>
+        <classitem>udd_distrikt_nr</classitem>
+        <labelitem>udd_distrikt_navn</labelitem>
+    </layer>
+</theme>

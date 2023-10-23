@@ -1,0 +1,17 @@
+<deploy>
+	<description>Modul til skolevej</description>
+	<version>1.2.0</version> 
+	
+	<param name="module.minimap2.searchresult.layer.polygon.color">255,0,0</param>
+    <!-- <param name="module.minimap2.searchresult.layer.polygon.opacity">0.6</param> -->
+    <!-- <param name="module.minimap2.searchresult.layer.polygon.outline.color">255,255,0</param> -->
+    <param name="module.minimap2.searchresult.layer.line.color">255,0,0</param>
+    <!-- <param name="module.minimap2.searchresult.layer.point.marker.url"></param> -->
+
+	
+	<copydir fromdir="[module:school_road.dir]/internal/dist" replacetext="true" todir="[cbinfo.wwwroot.dir]/modules/school_road"/>
+    <!-- <copydir fromdir="[module:school_road.dir]/dist" replacetext="true" todir="[cbinfo.wwwroot.dir]/modules/school_road"/> -->
+	<param name="module.school_road.route.profile">skolerute</param>
+	<param name="module.school_road.logo">/images/custom/Lolland9.png</param>
+	<param name="module.school_road.searchresult.number">15</param>
+</deploy>
