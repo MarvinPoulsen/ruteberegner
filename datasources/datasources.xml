@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <datasources>
-    <endpoint endpointtype="[cbinfo.connection.lolland_postgis.type]" name="ep_lk_school_road">
+    <endpoint endpointtype="[cbinfo.connection.lolland_postgis.type]" name="ep_lk_school_road_simple">
         <connect>[cbinfo.connection.lolland_postgis.url]</connect>
         <user>[cbinfo.connection.lolland_postgis.user]</user>
         <pwd>[cbinfo.connection.lolland_postgis.pwd]</pwd>
     </endpoint>
-	<datasource endpoint="ep_lk_school_road" name="lk_school_road_skoler_simple">
+	<datasource endpoint="ep_lk_school_road_simple" name="lk_school_road_skoler_simple">
         <table geometrycolumn="geom" name="skoler" pkcolumn="id" schema="skoler"/>
     </datasource>
 </datasources>
