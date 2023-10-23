@@ -55,8 +55,8 @@ const App: FC = () => {
             setSkoleData(data);
         });
         const siteUrl = minimap.current.getSession().getParam('cbinfo.site.url');
-        const logoUrl = minimap.current.getSession().getParam('module.school_road.logo');
-        const searchresultNumber = minimap.current.getSession().getParam('module.school_road.searchresult.number');
+        const logoUrl = minimap.current.getSession().getParam('module.school_road_simple.logo');
+        const searchresultNumber = minimap.current.getSession().getParam('module.school_road_simple.searchresult.number');
         const kommunenummer = minimap.current.getSession().getParam('config.kommunenr.firecifre');
         setLogo(siteUrl + logoUrl);
         setKommunenr(kommunenummer);
@@ -69,7 +69,7 @@ const App: FC = () => {
     ) => {
         const siteUrl = minimap.current.getSession().getParam('cbinfo.site.url');
         const apiUrl = minimap.current.getSession().getParam('module.afstand.spsroute.routeservice');
-        const routeProfile = minimap.current.getSession().getParam('module.school_road.route.profile');
+        const routeProfile = minimap.current.getSession().getParam('module.school_road_simple.route.profile');
         const school = skoleData.find((item) => item.id === schoolId);
         if (school){
         const url = `${siteUrl}${apiUrl}/route?profile=${routeProfile}&from=${school.latLong}&to=${toCoord}&srs=epsg:25832&lang=da`;
