@@ -36,7 +36,7 @@ const App: FC = () => {
     const onMapReady = (mm) => {
         minimap.current = mm;
         const ses = mm.getSession();
-        const ds = ses.getDatasource('lk_school_road_skoler');
+        const ds = ses.getDatasource('lk_school_road_skoler_simple');
         ds.execute({ command: 'read' }, (rows: SkoleDataRow[]) => {
             const data = rows.map((element) => {
                 const wkt = element.shape_wkt.wkt;
