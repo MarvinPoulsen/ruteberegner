@@ -5,7 +5,7 @@
         <user>[cbinfo.connection.lolland_postgis.user]</user>
         <pwd>[cbinfo.connection.lolland_postgis.pwd]</pwd>
     </endpoint>
-	<datasource endpoint="ep_lk_school_road_simple" name="lk_school_road_skoler_simple">
+	<datasource endpoint="ep_lk_school_road_simple" name="lk_school_road_simple_skoler">
         <table geometrycolumn="geom" name="skoler" pkcolumn="id" schema="skoler"/>
     </datasource>
 </datasources>
